@@ -11,7 +11,7 @@ That's literally all there is to it 😊
 #### 1. Install the package
 
 ```bash
-go get github.com/JuanBrotenelle/mylogger
+go get github.com/JuanBrotenelle/MyLogger
 ```
 
 #### 2. Create a logger
