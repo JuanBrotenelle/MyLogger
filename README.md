@@ -20,14 +20,9 @@ go get github.com/JuanBrotenelle/mylogger
 log := NewLogger("INFO")
 ```
 
-> [!IMPORTANT] The following levels can also be used:
->
-> ```
->    "INFO":  1,
->    "ERROR": 2,
->    "WARN":  3,
->    "DEBUG": 4,
-> ```
+> [!IMPORTANT]
+> The following levels can also be used:
+> "INFO", "ERROR", "WARN", "DEBUG"
 
 #### 3. Use
 
