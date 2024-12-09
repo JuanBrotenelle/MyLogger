@@ -43,28 +43,28 @@ func (l *Logger) logMessage(level, color, message string) {
 }
 
 /*
-If there is a debug, the message will be printed in blue
+If there is a debug, the message will be printed in GREEN
 */
 func (l *Logger) Debug(message string) {
 	l.logMessage("DEBUG", Green, message)
 }
 
 /*
-If there is an info, the message will be printed in green
+If there is an info, the message will be printed in BLUE
 */
 func (l *Logger) Info(message string) {
 	l.logMessage("INFO", Blue, message)
 }
 
 /*
-If there is a warning, the message will be printed in yellow
+If there is a warning, the message will be printed in YELLOW
 */
 func (l *Logger) Warn(message string) {
 	l.logMessage("WARN", Yellow, message)
 }
 
 /*
-If there is an error, the message will be printed in red
+If there is an error, the message will be printed in RED
 */
 func (l *Logger) Error(message string) {
 	l.logMessage("ERROR", Red, message)
