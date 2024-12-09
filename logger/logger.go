@@ -32,7 +32,7 @@ func (l *Logger) shouldLog(level string) bool {
 		"DEBUG": 4,
 	}
 
-	return levels[level] >= levels[l.level]
+	return levels[level] <= levels[l.level]
 }
 
 func (l *Logger) logMessage(level, color, message string) {
