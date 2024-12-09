@@ -21,12 +21,7 @@ log := NewLogger("INFO")
 ```
 
 > [!IMPORTANT] The following levels can also be used:
-> ```
->    "INFO":  1,
->    "ERROR": 2,
->    "WARN":  3,
->    "DEBUG": 4,
-> ```
+> "INFO", "ERROR", "WARN", "DEBUG"
 
 #### 3. Use
 
