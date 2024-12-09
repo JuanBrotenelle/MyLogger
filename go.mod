@@ -1,3 +1,3 @@
-module github.com/JuanBrotenelle/MyLogger
+module github.com/JuanBrotenelle/mylogger
 
 go 1.23.3
