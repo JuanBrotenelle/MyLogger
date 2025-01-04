@@ -38,7 +38,9 @@ func (l *Logger) shouldLog(level string) bool {
 func (l *Logger) logMessage(level, color, message string) {
 	if l.shouldLog(level) {
 		timestamp := time.Now().Format("15:04:05")
+		fmt.Println("")
 		fmt.Printf("%s[%s]%s %s - %s\n", color, level, Reset, timestamp, message)
+		fmt.Println("")
 	}
 }
 
